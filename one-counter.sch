@@ -208,8 +208,6 @@ F 3 "" H 8250 2600 50  0001 C CNN
 	1    8250 2600
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	8250 2600 8250 2850
 $Comp
 L power:PWR_FLAG #FLG03
 U 1 1 5B9C2C14
@@ -355,17 +353,6 @@ F 3 "" H 6350 3300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R3
-U 1 1 5B9BEA7F
-P 8250 3000
-F 0 "R3" H 8320 3046 50  0000 L CNN
-F 1 "150" H 8320 2955 50  0000 L CNN
-F 2 "Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P1.90mm_Vertical" V 8180 3000 50  0001 C CNN
-F 3 "~" H 8250 3000 50  0001 C CNN
-	1    8250 3000
-	1    0    0    -1  
-$EndComp
-$Comp
 L one-counter:7447-L U6
 U 1 1 5B9D034E
 P 7800 3300
@@ -389,8 +376,6 @@ F 3 "" H 7800 3300 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	8200 3350 8250 3350
-Wire Wire Line
-	8250 3350 8250 3150
 $Comp
 L one-counter:5082-7650-L U8
 U 1 1 5B9D27E2
@@ -666,4 +651,6 @@ Text GLabel 4000 2150 0    50   Input ~ 0
 U7-15
 Text GLabel 4400 2150 2    50   Input ~ 0
 U8-2
+Wire Wire Line
+	8250 2600 8250 3350
 $EndSCHEMATC
