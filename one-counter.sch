@@ -281,7 +281,7 @@ U 1 1 5B9AC9D3
 P 3800 2000
 F 0 "U3" H 4050 2050 50  0000 C CNN
 F 1 "555-R" H 4000 1550 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x04_Pitch2.54mm" H 3800 2000 50  0001 C CNN
+F 2 "one-counter:Pin_Header_Straight_1x04_Pitch2.54mm_Right" H 3800 2000 50  0001 C CNN
 F 3 "" H 3800 2000 50  0001 C CNN
 	1    3800 2000
 	1    0    0    -1  
@@ -352,7 +352,7 @@ U 1 1 5B9CC105
 P 6300 1900
 F 0 "U5" H 6400 1950 50  0000 C CNN
 F 1 "74LS90-R" H 6500 1150 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x07_Pitch2.54mm" H 6250 1900 50  0001 C CNN
+F 2 "one-counter:Pin_Header_Straight_1x07_Pitch2.54mm_Right" H 6250 1900 50  0001 C CNN
 F 3 "" H 6250 1900 50  0001 C CNN
 	1    6300 1900
 	1    0    0    -1  
@@ -385,7 +385,7 @@ U 1 1 5B9D0EF2
 P 7700 1900
 F 0 "U7" H 7800 1950 50  0000 C CNN
 F 1 "7447-R" H 7850 1050 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x08_Pitch2.54mm" H 7700 1900 50  0001 C CNN
+F 2 "one-counter:Pin_Header_Straight_1x08_Pitch2.54mm_Right" H 7700 1900 50  0001 C CNN
 F 3 "" H 7700 1900 50  0001 C CNN
 	1    7700 1900
 	1    0    0    -1  
@@ -411,7 +411,7 @@ U 1 1 5B9D2959
 P 9300 2000
 F 0 "U9" H 9450 2050 50  0000 C CNN
 F 1 "5082-7650-R" H 9600 1250 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x07_Pitch2.54mm" H 9300 2000 50  0001 C CNN
+F 2 "one-counter:Pin_Header_Straight_1x07_Pitch2.54mm_Right" H 9300 2000 50  0001 C CNN
 F 3 "" H 9300 2000 50  0001 C CNN
 	1    9300 2000
 	1    0    0    -1  
