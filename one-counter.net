@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source D:\Users\z003ruax\GitHub\one-counter\one-counter.sch)
-    (date "9/13/2018 1:13:01 PM")
+    (date "9/13/2018 1:14:32 PM")
     (tool "Eeschema (5.0.0)")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -44,7 +44,7 @@
       (tstamp 5B99A664))
     (comp (ref U5)
       (value MAN71A)
-      (footprint Display_7Segment:MAN71A)
+      (footprint digikey-footprints:LED_7Seg_VAOS-C402S9-BW_50)
       (datasheet https://www.digchip.com/datasheets/parts/datasheet/161/MAN3640A-pdf.php)
       (libsource (lib Display_Character) (part MAN71A) (description "Single digit 7 segment red LED common anode right hand decimal"))
       (sheetpath (names /) (tstamps /))

@@ -194,7 +194,7 @@ U 1 1 5B99DCBE
 P 8800 2650
 F 0 "U5" H 8800 3317 50  0000 C CNN
 F 1 "MAN71A" H 8800 3226 50  0000 C CNN
-F 2 "Display_7Segment:MAN71A" H 8300 1950 50  0001 L CNN
+F 2 "digikey-footprints:LED_7Seg_VAOS-C402S9-BW_50" H 8300 1950 50  0001 L CNN
 F 3 "https://www.digchip.com/datasheets/parts/datasheet/161/MAN3640A-pdf.php" H 8810 2990 50  0001 L CNN
 	1    8800 2650
 	1    0    0    -1  
