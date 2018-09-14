@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source C:\Users\Dillon\Documents\GitHub\one-counter\one-counter.sch)
-    (date "9/13/2018 8:15:54 PM")
+    (date "9/13/2018 8:43:01 PM")
     (tool "Eeschema (5.0.0)")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -38,7 +38,7 @@
       (tstamp 5B9AE762))
     (comp (ref C1)
       (value 0.01uF)
-      (footprint Capacitor_THT:C_Disc_D7.5mm_W5.0mm_P5.00mm)
+      (footprint Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm)
       (datasheet ~)
       (libsource (lib Device) (part C) (description "Unpolarized capacitor"))
       (sheetpath (names /) (tstamps /))
