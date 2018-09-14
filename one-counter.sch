@@ -145,7 +145,7 @@ U 1 1 5B9AE7E4
 P 4550 4250
 F 0 "C1" H 4665 4296 50  0000 L CNN
 F 1 "0.01uF" H 4665 4205 50  0000 L CNN
-F 2 "Capacitors_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm" H 4588 4100 50  0001 C CNN
+F 2 "Capacitor_THT:C_Disc_D7.5mm_W5.0mm_P5.00mm" H 4588 4100 50  0001 C CNN
 F 3 "~" H 4550 4250 50  0001 C CNN
 	1    4550 4250
 	1    0    0    -1  
@@ -156,7 +156,7 @@ U 1 1 5B9AE85A
 P 5000 4300
 F 0 "C2" H 5118 4346 50  0000 L CNN
 F 1 "2.2uF" H 5118 4255 50  0000 L CNN
-F 2 "Capacitors_SMD:CP_Elec_4x5.8" H 5038 4150 50  0001 C CNN
+F 2 "Capacitor_THT:CP_Radial_D4.0mm_P1.50mm" H 5038 4150 50  0001 C CNN
 F 3 "~" H 5000 4300 50  0001 C CNN
 	1    5000 4300
 	1    0    0    -1  
@@ -509,23 +509,23 @@ NoConn ~ 9900 3950
 Wire Wire Line
 	9900 3450 10250 3450
 $Comp
-L Connector:Conn_01x08_Male J1
+L Connector:Conn_01x07_Male J1
 U 1 1 5BA28C02
 P 4200 1850
 F 0 "J1" H 4300 2300 50  0000 C CNN
-F 1 "Conn_01x08-L" H 4500 1350 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x08_Pitch2.54mm" H 4200 1850 50  0001 C CNN
+F 1 "Conn_01x07-L" H 4500 1450 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x07_P2.54mm_Vertical" H 4200 1850 50  0001 C CNN
 F 3 "~" H 4200 1850 50  0001 C CNN
 	1    4200 1850
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Connector:Conn_01x08_Female J2
+L Connector:Conn_01x07_Female J2
 U 1 1 5BA28D1D
 P 4200 1850
 F 0 "J2" H 4000 2300 50  0000 L CNN
-F 1 "Conn_01x08-R" H 3600 1350 50  0000 L CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x08_Pitch2.54mm" H 4200 1850 50  0001 C CNN
+F 1 "Conn_01x07-R" H 3600 1450 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x07_P2.54mm_Vertical" H 4200 1850 50  0001 C CNN
 F 3 "~" H 4200 1850 50  0001 C CNN
 	1    4200 1850
 	-1   0    0    -1  
